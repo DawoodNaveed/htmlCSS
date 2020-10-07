@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html Assignment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<style>
+		img
+		{
+			width:max-width;
+		}
+		
+    #img{
+      position: absolute;
+       right: 0px;
+       top: 0px;
+      z-index: -1;
+      width:1100px;
+      max-width:91% ;
+      max-height: 800px;
+      
+      height: auto;
+     }
+     #img1{
+           position: absolute;
+       left: 0px;
+       top: 0px;
+      z-index: -1;
+      width: 1350px;
+      max-width: 100%;
+    
+      max-height: 800px;
+      height: auto;
+     } 
+     #img2{
+     	position: absolute;
+         top: 10%;
+         left:40%;
+         max-height: 600px;
+         max-width: 80%;
+         height: auto;
+     }
+@media screen and (max-width: 900px){
+	#img2{
+     	position: absolute;
+         top: 10%;
+         left:20%;
+         max-height: 600px;
+         max-width: 80%;
+         height: auto;
+    	 }
+     }
+     #img3{
+     	margin-top: 50px;
+     	margin-right: 10px; 
+		margin-left: 7%;
+     }
+     #s1
+     {
+     	
+     	color: aqua;
+     	font-size: 20px;
+     }
+        #s2
+     {
+     	position: absolute;
+     	top:13%;
+     	left:7%;
+        font-family: sans-serif;
+     	font-size: 7vw;
+     }
+     #pr1
+     {
+     	position: absolute;
+     	top:55%;
+     	left: -2%;
+     	transform: rotate(-90deg);
+     	color: grey;
+     }
+     @media screen and (max-width: 800px){
+	   #pr1
+     {
+     	position: absolute;
+     	top:40%;
+     	left:-15%;
+     	transform: rotate(-90deg);
+     	color: grey;
+     }
+     }
+  #s3
+  {
+  	position: absolute;
+    border:solid aqua 2px;
+    
+    top:31%;
+    left :7%;
+    padding:6px;
+    color:aqua;
+  }
+  #s4{
+  	position: absolute;
+  	background-color: aqua;
+  	padding:8px;
+
+  	top:30%;
+  	left:7%;
+  	margin-top: 2px;
+  	margin-left: 10px;
+  	color: black;
+  	text-decoration: none;
+  	font-family: sans-serif;
+  }
+ #div1
+ {
+ 	position: absolute;
+ 	right: 15%;
+ 	top:8%;
+ 	
+ }
+  i
+  {
+  	margin: 10px;
+  	text-shadow: 1px 1px;
+  	font-family: sans-serif;
+  	font-size: 15px;
+  }
+  #i1
+  {
+    position: absolute;
+    top:80px;
+    left:1200px;
+  }
+  #i2{
+position: absolute;
+    top:80px;
+    left:1220px;
+  }
+  #s5
+  {
+  	position: absolute;
+  	top:5%;
+  	right:8%;
+  	background: #383838;
+    padding: 25px;
+    border-radius: 50px;
+  }
+   #s6
+   {
+   position: absolute;
+  	top:50%;
+  	right:1%;
+  	background: white;
+    padding: 15px;
+    border-radius: 50px;
+   }
+     #s7
+     {
+         position: absolute;
+  	top:58%;
+  	right:1%;
+  	background: black;
+    padding: 20px;
+    border-radius: 50%;
+     }
+     #s8
+     {
+          position: absolute;
+  	top:66%;
+  	right:1%;
+  	background: black;
+    padding: 15px;
+    border-radius: 50px;
+     }
+     #s9
+     {
+       position: absolute;
+  	top:74%;
+  	right:1%;
+  	background: black;
+    padding: 15px;
+    border-radius: 50px;
+     }
+     #s6,#s7,#s8,#s9
+     {
+     	margin:5px;
+     }
+   #s10
+   {
+   	position: absolute;
+      left: 10%;
+      z-index: -1;
+      background: #f2f2f2;
+      max-height: 500px;
+         max-width: 80%;
+         height: auto;
+      outline-style: solid 2px;
+      outline-color: white;
+      padding: 20px;
+   }
+   #h1
+   {
+
+   	position: absolute;
+   	top:1050px;
+   	left: 43%;
+   	font-size:2vw;
+   }
+   #p1
+   {
+   	position: absolute;
+   	top:1140px;
+   	left:43%;
+   	color: grey;
+   }
+   #pi
+   {
+ 	position: absolute;
+   	top:1160px;
+   	left:43%;
+   	color: grey;
+   }
+   #p2
+   {
+     position: absolute;
+    border:solid aqua 2px;
+    top:1307px;
+    left :61%;
+    font-size:20px;
+    background-color: aqua;
+   padding: 7px;
+    color:black;
+    text-decoration: none;
+  }
+   
+   #p3
+   {
+      position: absolute;
+  	   border:solid aqua 1px;
+  	   margin-left: 5px;
+  	padding:8px;
+  	top:1300px;
+  	left:61%;
+  	color: aqua;
+  	text-decoration: none;
+  	font-family: sans-serif;
+   }
+   #h2
+   {
+   	position: absolute;
+   	top:1700px;
+   	left: 100px;
+   	font-size:30px;
+
+   }
+   #d1
+   {
+   	position: absolute;
+   	top:1800px;
+   	left:100px;
+   }
+.d1:hover  .overlay{
+   	bottom: 130px;
+   	height: 62%;
+   }
+    
+    #d2
+   {
+   	position: absolute;
+   	top:1800px;
+   	left:500px;
+   }
+    #d3
+   {
+   	position: absolute;
+   	top:1800px;
+   	left:900px;
+   }
+    #d4
+   {
+   	position: absolute;
+   	top:1800px;
+   	left:1300px;
+   }
+   #a1
+   {
+       position: absolute;
+    border:solid aqua 2px;
+    top:2680px;
+    left :107px;
+    font-size:20px;
+    background-color: aqua;
+   padding: 7px;
+    color:black;
+    text-decoration: none;
+   }
+   #a2
+   {
+ position: absolute;
+  	   border:solid aqua 1px;
+  	padding:10px;
+  	top:2670px;
+  	left:100px;
+  	color: aqua;
+  	text-decoration: none;
+  	font-family: sans-serif;
+   }
+   .h1
+   {
+   	position: absolute;
+   	top:2360px;
+   	left:100px;
+   	font-size: 30px;
+   }
+   .p1
+   {
+   	position: absolute;
+   	top:2460px;
+   	left:100px;
+   	color:grey;
+   }
+   .p2
+   {
+   		position: absolute;
+   	top:2500px;
+   	left: 100px;
+   	color:grey;
+   }
+   .p3
+   {
+   		position: absolute;
+   	top:2540px;
+   	left: 100px;
+   	color:grey;
+   }
+   .d
+   {
+   	height: 230px;width: 200px; background-color: aqua;
+   	position: absolute;
+   	top:2500px;
+   	left:1250px;
+   	z-index: -1;
+   }
+   .c1
+   {
+   	position: absolute;
+   	top:2330px;
+   	left:1050px;
+
+   }
+   .a1
+   {
+   	position: absolute;
+   	top:2900px;
+   	text-align: center;
+   	width: 1820px;
+   }
+  #sp1
+  {
+  	font-size:150px;
+  	padding-bottom: 20px;
+  	background-color: aqua;
+  	color:white;
+  	
+  	opacity:0.3;
+  }
+   #dd2
+   {
+   	position: absolute;
+   	top:3700px;
+   	left:500px;
+      text-align: bottom;
+      z-index: -1;
+   }
+   #im
+   {
+   	position: absolute;
+   	top:3400px;
+   	left:420px;
+   }
+
+   .overlay{
+   	position: absolute;
+   	bottom: 100%;
+   	left: 10px;
+   	right: :20px;
+   	background-color: aqua;
+   	opacity: 0.8;
+   	overflow: hidden;
+   	width: 92%;
+   	height: 0;
+   	transition: .5s;
+   }
+   
+.c_btn_detais{
+margin-left: 25px;
+margin-top:75px;
+background :transparent;
+width: 180px;
+height: 60px;
+color: white;
+font-size: 20px;
+border:2px solid white;
+}
+#l1
+{
+	position: absolute;
+	top:3250px;
+	left: 40%;
+}
+  
+#di2
+{
+	position: absolute;
+	top:3400px;
+	left:55%;
+}
+#ai1
+   {
+       position: absolute;
+    border:solid aqua 2px;
+    top:3680px;
+    left :77%;
+    font-size:20px;
+    background-color: aqua;
+   padding: 7px;
+    color:black;
+    text-decoration: none;
+   }
+   #ai2
+   {
+ position: absolute;
+  	   border:solid aqua 1px;
+  	padding:12px;
+  	top:3670px;
+  	left:77%;
+  	color: aqua;
+  	text-decoration: none;
+  	font-family: sans-serif;
+   }
+	</style>
+
+   
+</head>
+<body style="background-color: white; margin:0px;">
+<section>
+<img id="img" src="shape_9.png" >
+
+<img id="img1" src="shape_30.png">
+<img id="img2" src="img_2.png">
+<div>
+<img id="img3" src="vector_smart_object_2.png">
+
+<span id="s1">Sho<strong style="color: black">e</strong> Shop</span>
+</div>
+
+<pre id="pr1">
+	Nike,originally known as Blue Ribbon Sports
+ <br>	was founded by University of Orgen Track
+	<br>
+	athlete Phil Knight</pre>
+
+<span id="s2"><strong>Nike</strong></span>
+	<a id="s4" href=""><strong>SHOP BY BRANDS</strong></a>
+	<span id="s3">.....................................</span>
+	<div id="div1">
+		<i class="far fa-circle"></i>
+		<i class="far fa-circle"></i>
+	</div>
+		<img src="image.png" id="s5"  style="background-color: black; height: 30px;" />
+		
+         <img id="s6" src="fa-twitter.png" style="height: 25px" />
+         <img id="s7" src="fa-facebook.png" style="height: 25px" />
+         <img id="s8" src="fa-google-plus.png" style="height: 25px"/>
+         <img id="s9" src="fa-pinterest.png" style="height: 25px"/>
+         <br/><br/>
+         
+</section>
+
+<section style="margin-top: 1000px;">
+	
+	<img id="s10" src="img.jpg" >
+
+	<h1 id="h1">Nike Air Force One MID id</h1>
+	
+	<p id="p1">
+		Bring to the table win-win survival strategies to ensure proactive domination
+		</p>
+		<p id="pi">At the end of the day,going forward,
+	</p>
+	<a id="p2" href="">View Now</a>
+	<span id="p3">....................</span>
+</section>
+
+
+<section style="margin-top: 600px;">
+	
+	<h1 id="h2">Popular Arrivals</h1>
+	<div id="d1" class="d1">
+	   <img id="pi1" class="pi1 c_img" src="layer_51.jpg" style="width:250px;height: 250px" />
+	   <br/><br/>
+	   <pre >Nike shoes   <span style="color: grey;">Shop Outdoors</span></pre>
+	   <div class="overlay">
+	   <button class="c_btn_detais">View Details</button>
+	</div>
+
+	   <pre style="color: grey; font-size:20px; ">&#65284; 125</pre>
+	</div>
+	<div id="d2" class="d1">
+	   <img id="pi2" src="layer_52.jpg" style="width:250px;height: 250px" />
+	   <br/><br/>
+	   <pre >Nike shoes   <span style="color: grey;">Shop Outdoors</span></pre>
+	   
+<div class="overlay">
+	   <button class="c_btn_detais">View Details</button>
+	</div>
+
+	   <pre style="color: grey; font-size:20px; ">&#65284; 260</pre>
+	</div>
+	<div id="d3" class="d1">
+	   <img id="pi3" src="layer_54.jpg" style="width:250px;height: 250px"/>
+	   <br/><br/>
+	   <pre >Nike shoes   <span style="color: grey;">Shop Outdoors</span></pre>
+	   
+<div class="overlay">
+	   <button class="c_btn_detais">View Details</button>
+	</div>
+
+	   <pre style="color: grey; font-size:20px; ">&#65284; 145</pre>
+	</div>
+		<div id="d4" class="d1">
+	   <img id="pi4" src="bg_10.jpg" style="width:250px;height: 250px"/>
+	   <br/><br/>
+	   <pre >Nike shoes   <span style="color: grey;">Shop Outdoors</span></pre>
+	   
+<div class="overlay">
+	   <button class="c_btn_detais">View Details</button>
+	</div>
+
+	   <pre style="color: grey; font-size:20px; ">&#65284; 350</pre>
+	</div>    
+       
+      
+</section>
+<section style="margin-top: 1400px;">
+	<article>
+		<h1 class="h1">Pre-Fall Collections</h1>
+		<pre class="p1">Bring to the table win-win survival strategies to ensure proactive domina-</pre>
+		<pre class="p2">tion. At the end of the day,going forward,a new normal that has evolved from generation X is on the </pre><pre class="p3">runway heading towards a streamlined cloud solution. User generated content in real-time will</pre>
+	</article>
+	<a id="a1" href="">View Details</a>
+	<span id="a2">....................</span>
+	<div class="d" ></div>
+    <img src="bg_8.jpg" class="c1" style="height: 350px;width: 320px;" />
+    <div class="a1" style="background-color: #f2f2f2">
+    	<h1>We Thought of you</h1>
+    	<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide</pre><pre> with additional clickThoughts from devops NanaTechnology</pre>
+    		<br/>
+    	<pre>Nandy Sweet</pre>
+    	<pre style="color: aqua">UI Designer</pre>
+
+    	
+
+    </div>
+</section>
+<section style="margin-top: 800px">
+	<h1 id="l1" style="text-align: center">Latest Bolg</h1>
+	<img id="im" style="height: 300px;width: 250px" src="bg_6.png"/>
+	   <div id="dd2" style="height: 100px;width: 300px ;transform: rotate(-90deg);"> 
+		<span id="sp1">NIKE</span>
+	</div>
+	<div id="di2">
+	<h1 id="l2">Colourful Offer ;</h1>
+	<p style="color: grey;">Leverage agile frameworks to provide a robust synopsis for high level</p>
+	<p style="color: grey;">overviews. Iterative approaches to corporate strategy faster collabora-</p>
+	<p style="color:grey;">tive thinking to further the overall value proposition</p>
+    </div>
+    <a id="ai1" href="">Read More</a>
+	<span id="ai2">....................</span>
+</section>
+		
+	
+
+</body>
+</html>
